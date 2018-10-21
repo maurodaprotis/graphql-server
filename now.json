@@ -1,0 +1,17 @@
+{  
+  "name": "graphql-server",
+  "alias": "graphql-server",
+  "public": true,
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "FRONTEND_URL": "http://localhost:6666",
+    "API_ENDPOINT": "https://graphql-server.now.sh",
+    "PRISMA_ENDPOINT": "https://prisma-endpoint.com/app/stage",
+    "PRISMA_SECRET": "secreetee",
+    "APP_SECRET": "appsecreeto"
+  }
+}
